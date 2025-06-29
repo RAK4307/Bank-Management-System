@@ -1,0 +1,109 @@
+.admin-dashboard-container {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.admin-dashboard-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #1a2b4d;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.admin-dashboard-nav h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.admin-logout-btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #dc3545;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.admin-logout-btn:hover {
+    background-color: #c82333;
+}
+
+.admin-dashboard-main {
+    padding: 2rem;
+    height: 650px;
+}
+
+.admin-dashboard-main h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.admin-content-placeholder {
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border: 1px solid #e9ecef;
+}
+
+.admin-content-placeholder h3 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    color: #007bff;
+}
+
+.customer-list-container {
+    margin-top: 2rem;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.customer-list-container h3 {
+    font-size: 1.5rem;
+    color: #1a2b4d;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #e9ecef;
+    padding-bottom: 0.5rem;
+}
+
+.customer-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+}
+
+.customer-table th, .customer-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.customer-table thead th {
+    background-color: #f8f9fa;
+    color: #495057;
+    font-weight: 600;
+}
+
+.customer-table tbody tr:hover {
+    background-color: #f1f3f5;
+}
+
+.customer-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.admin-error-message {
+    color: #dc3545;
+    background-color: #f8d7da;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid #f5c6cb;
+}

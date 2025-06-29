@@ -1,0 +1,108 @@
+.deposite-container {
+  max-width: 550px; /* A bit wider for better spacing */
+  margin: 50px auto;
+  padding: 32px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Style the title heading */
+.deposite-container h2 {
+  font-size: 1.5rem; /* Larger font size for the title */
+  font-weight: 600;
+  margin-bottom: 24px;
+  color: #212529;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.deposite-container label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #495057;
+  font-size: 0.9rem;
+}
+
+/* Unified style for all text/number inputs */
+.deposite-container input[type="text"],
+.deposite-container input[type="number"] {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #495057;
+  background-color: #fff;
+  transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  box-sizing: border-box; /* Important for consistent sizing */
+}
+
+/* Modern focus state */
+.deposite-container input[type="text"]:focus,
+.deposite-container input[type="number"]:focus {
+  border-color: #28a745;
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.25);
+}
+
+/* Styling for the submit button */
+.deposite-container input[type="submit"] {
+  width: 100%;
+  padding: 12px 0;
+  background: #28a745; /* A slightly brighter, more modern green */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, transform 0.1s ease;
+  letter-spacing: 0.5px;
+}
+
+.deposite-container input[type="submit"]:hover {
+  background: #218838; /* Darker shade for hover */
+}
+
+.deposite-container input[type="submit"]:active {
+  transform: scale(0.99); /* Add a subtle press effect */
+}
+
+/* Styles for feedback messages */
+.success-message,
+.error-message {
+  padding: 12px;
+  margin-top: 20px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.success-message {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.error-message {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+.account-display {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 0;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #495057;
+  background-color: #e9ecef; /* A light grey to indicate it's read-only */
+}

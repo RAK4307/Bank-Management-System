@@ -1,0 +1,104 @@
+.admin-login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #b3c6e0d2 0%, #1976d2dd 100%);
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.admin-login-card {
+  background: rgba(255, 255, 255, 0.38);
+  backdrop-filter: blur(20px) saturate(160%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%);
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(25, 118, 210, 0.16);
+  padding: 40px 36px 32px 36px;
+  width: 100%;
+  max-width: 370px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1.5px solid rgba(25, 118, 210, 0.10);
+}
+
+.admin-login-card h2 {
+  color: #183153;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.admin-login-card p {
+  margin-bottom: 2rem;
+  color: #6c757d;
+}
+
+.admin-login-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.admin-login-form .admin-input-group {
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+.admin-login-form label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: 500;
+  color: #183153;
+}
+
+.admin-login-form input {
+  width: 300px;
+  padding: 12px 14px;
+  border: 1.5px solid #b3c6e0;
+  border-radius: 6px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  background: rgba(247, 251, 255, 0.85);
+  transition: border 0.2s;
+}
+
+.admin-login-form input:focus {
+  outline: none;
+  border-color: #1976d2aa;
+}
+
+.admin-login-btn {
+  width: 100%;
+  padding: 13px 0;
+  border: none;
+  border-radius: 6px;
+  background-color: #1976d2;
+  color: white;
+  font-size: 1.15rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-top: 10px;
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.10);
+}
+
+.admin-login-btn:hover {
+  background-color: #125ea2;
+}
+
+.admin-login-btn:disabled {
+  background-color: #125ea2;
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.admin-login-error {
+  color: #d32f2f;
+  margin-top: 8px;
+  text-align: center;
+  font-size: 1rem;
+  width: 100%;
+}
